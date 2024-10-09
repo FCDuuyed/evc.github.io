@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones Sostenibles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Soluciones Sostenibles</h1>
+        <p>Limpieza del aire, los océanos y las playas</p>
+    </header>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h2>Un Mundo Limpio Comienza Aquí</h2>
+            <p>Innovación tecnológica para limpiar el plástico de la tierra, el aire y el mar</p>
+            <a href="#productos" class="hero-button">Explorar Productos</a>
+        </div>
+    </section>
+
+    <section class="container section" id="productos">
+        <h3>Nuestras Máquinas</h3>
+        <div class="machine-grid">
+            <div class="machine">
+                <img src="imagen-submarina.jpg" alt="Máquina Submarina">
+                <h4>Máquina Submarina</h4>
+                <p>Recolección y degradación de plásticos en el fondo del océano. Limpia el hábitat marino de desechos plásticos.</p>
+                <a href="#" class="buy-button">Comprar Ahora</a>
+            </div>
+            <div class="machine">
+                <img src="imagen-aerea.jpg" alt="Máquina Aérea">
+                <h4>Máquina Aérea</h4>
+                <p>Recolecta plásticos y desechos del aire sin interferir con el tráfico, manteniendo la ciudad limpia.</p>
+                <a href="#" class="buy-button">Comprar Ahora</a>
+            </div>
+            <div class="machine">
+                <img src="imagen-playa.jpg" alt="Máquina de Playa">
+                <h4>Máquina de Playa</h4>
+                <p>Limpia las playas de plásticos y otros residuos, protegiendo los ecosistemas costeros.</p>
+                <a href="#" class="buy-button">Comprar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section" id="sobre-nosotros">
+        <h3>Sobre Nosotros</h3>
+        <p>En Soluciones Sostenibles, creemos en un futuro libre de plásticos. Nuestro equipo de ingenieros y ambientalistas ha desarrollado tecnología de punta para recoger y degradar plásticos de manera eficiente, asegurando que tanto los océanos como las ciudades se mantengan limpios y sostenibles para las futuras generaciones.</p>
+    </section>
+
+    <section class="container section" id="contacto">
+        <h3>Contacto</h3>
+        <p>Para obtener más información o para colaborar con nosotros, por favor contáctanos a través de nuestro correo electrónico: <a href="mailto:info@solucionessostenibles.com">info@solucionessostenibles.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Soluciones Sostenibles. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+/* Fuente futurista y estilo limpio */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(135deg, #0b2a5e, #1f4d8f);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #1f4d8f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    animation: slideIn 2s ease;
+}
+
+nav a {
+    color: #61dafb;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    background-image: url('imagen-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: zoomIn 3s ease-in-out;
+}
+
+.hero h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #d0d0d0;
+}
+
+.hero-button {
+    padding: 15px 30px;
+    background-color: #61dafb;
+    color: #111;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+}
+
+.container {
+    padding: 60px 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.section h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #d0d0d0;
+}
+
+.machine-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.machine {
+    background-color: #1f4d8f;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.machine:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.machine img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.machine h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.machine p {
+    font-size: 1rem;
+    color: #d0d0d0;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #111;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #0b2a5e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.6);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-100%); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
